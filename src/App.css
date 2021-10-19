@@ -3,6 +3,10 @@
   border: black;
 }
 
+.footer-text {
+  font-size: 8pt;
+}
+
 .App {
   text-align: center;
 }

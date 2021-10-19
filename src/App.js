@@ -15,6 +15,9 @@ function App() {
           $11
         </a>
       </header>
+      <footer>
+        <p class="footer-text">human@hellohumans.ai</p>
+      </footer>
     </div>
   );
 }
