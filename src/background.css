@@ -1,0 +1,30 @@
+.background-text {
+    color: black;
+    font-size: 55pt;
+    font-family: 'Milliard Book';
+    opacity: .1;
+    position: fixed;
+    line-height: 70%;
+    width: 70%;
+    top: 90%;
+    right: 15%;
+    z-index: -1;
+    animation: simple 550s forwards linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes simple {
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+      }
+  }
+
+@font-face {
+    font-family: 'Milliard Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/Rene Bieder  Milliard Book.woff') format('woff');
+}
